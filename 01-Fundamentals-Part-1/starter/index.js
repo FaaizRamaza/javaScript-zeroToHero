@@ -89,4 +89,4 @@ function fruitProcesscor(apples, oranges) {
     return juice
 }
 
-console.log(fruitProcesscor(2,3));
+console.log(fruitProcesscor(2,6));
