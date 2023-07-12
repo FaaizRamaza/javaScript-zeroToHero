@@ -37,6 +37,7 @@ document.querySelector('.check').addEventListener('click', function () {
 
     document.querySelector('.number').style.width = '30rem';
 
+    // Highscore Logic
     if (score > highscore) {
       highscore = score;
       document.querySelector('.highscore').textContent = highscore;
@@ -70,4 +71,4 @@ document.querySelector('.again').addEventListener('click', () => {
   document.querySelector('.number').style.width = '15rem';
 });
 
-// Highscore Logic
+
